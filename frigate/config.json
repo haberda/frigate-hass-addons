@@ -1,6 +1,6 @@
 {
   "name": "Frigate NVR",
-  "version": "0.8.4-{arch}",
+  "version": "0.8.4",
   "panel_icon": "mdi:cctv",
   "slug": "frigate",
   "description": "NVR with realtime local object detection for IP cameras",
@@ -37,9 +37,7 @@
   "schema": {},
   "services": ["mqtt:need"],
   "arch": [
-    "amd64",
-    "armv7",
-    "aarch64"
+    "amd64"
   ],
   "map": [
     "media:rw",
